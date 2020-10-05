@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MySQL - sql7368880@sql7.freemysqlhosting.net" uuid="6aad2516-9aff-422b-9dbd-97bc8d607e0d">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7368880</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jdbc:mysql:// sql309.epizy.com :3306/rental_db" uuid="1a2c4d19-a5a7-4252-a1b9-d38ba9c2c8a3">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql:// sql309.epizy.com :3306/rental_db</jdbc-url>
+    </data-source>
+  </component>
+</project>

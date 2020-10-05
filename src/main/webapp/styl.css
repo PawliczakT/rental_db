@@ -1,0 +1,23 @@
+.powitanie {
+    font-family: Calibri;
+    font-style: italic;
+    color: chocolate;
+}
+.data {
+    font-family: Tahoma;
+    font-style: italic;
+    font-weight: bolder;
+    color: darkblue;
+}
+.countries {
+    font-family: Cambria;
+    font-style: normal;
+    font-weight: bolder;
+    color: darkslateblue;
+}
+#words {
+    font-family: Candara;
+    font-style: italic;
+    font-weight: bolder;
+    color: navy;
+}
