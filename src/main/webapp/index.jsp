@@ -7,7 +7,7 @@
     <title>DB</title>
 </head>
 <body>
-<h2>Witaj w swiecie JSP2</h2>
+<h2>Witaj w swiecie JSP23</h2>
 <sql:setDataSource var = "baza"
     driver = "com.mysql.jdbc.Driver"
     url = "jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7368880?serverTimezone=UTC"
