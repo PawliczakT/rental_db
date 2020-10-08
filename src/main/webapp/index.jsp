@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Dagi
-  Date: 04.10.2020
-  Time: 12:48
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -30,8 +23,6 @@
         <th>Marka</th>
         <th>Model</th>
         <th>Ocena</th>
-        <th>Istnieje?</th>
-        <th>Imię</th>
     </tr>
 
     <c:forEach var = "row" items="${result.rows}">
@@ -40,8 +31,6 @@
             <td><c:out value="${row.mark}"/></td>
             <td><c:out value="${row.model}"/></td>
             <td><c:out value="${row.rate}"/></td>
-            <td><c:out value="${row.isDeleted}"/></td>
-            <td><c:out value="${row.first_name}"/></td>
         </tr>
     </c:forEach>
 </table>
@@ -57,8 +46,5 @@
     <input type="text" id="rat" name="rat"><br>
     <input type="submit" value="Submit">
 </form>
-
-
-
 </body>
 </html>
